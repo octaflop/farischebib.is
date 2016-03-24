@@ -1,5 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
 body {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: rgba(0, 0, 0, 0.9);
     position: absolute; 
     top: 0;
@@ -27,9 +29,9 @@ body {
 h1 {
     color: white;
     font-weight: bold;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.01em;
     font-size: 4em;
-    font-family: Arial;
+    font-family: "Droid Sans";
     margin: -10px 0;
 }
 h3 {
@@ -114,7 +116,7 @@ a:hover {
 .description {
     display: inline-block;
     color: white;
-    font-family: Arial;
+    font-family: "Droid Sans";
     margin-left: 40px;
 }
 .content {
