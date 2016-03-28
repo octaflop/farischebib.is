@@ -44,6 +44,7 @@ h3 {
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
     height: 100%;
+    padding-top: 60px;
 }
 ul {
     list-style: none;
@@ -119,7 +120,4 @@ a:hover {
     color: white;
     font-family: "Droid Sans";
     margin-left: 40px;
-}
-.content {
-    padding-top: 60px;
 }
