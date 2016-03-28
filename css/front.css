@@ -43,6 +43,7 @@ h3 {
     padding-bottom: 90px;
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
+		height: 100%;
 }
 ul {
     list-style: none;
