@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/faris
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://farischebib.is
+  * I am faris (https://keybase.io/faris) on keybase.
+  * I have a public key ASBKkLGgZKNxhhSEDRHqGn8uIv4nwyGYNKHuu_A_SJUTUAo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01012fd0dfb499fc1c4984db2bd3f0a1e65d5253486225e9d234bba803c6611bd1d90a",
+            "host": "keybase.io",
+            "kid": "01204a90b1a064a3718614840d11ea1a7f2e22fe27c3219834a1eebbf03f489513500a",
+            "uid": "62db210cc2ea70cf7c317a34d5d15319",
+            "username": "faris"
+        },
+        "service": {
+            "hostname": "farischebib.is",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.15"
+    },
+    "ctime": 1459792687,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1459792606,
+        "hash": "6eac79a6c5ee8148fd381addc1978ed7a6114a9b5055f111e52a9daaadea2a8be778dc29b17369b76c80c1f742fdc0e3684a4992d9bcbe1e59c44342aca8c688",
+        "seqno": 428517
+    },
+    "prev": "cde9dcac9df97eb07e79e599bf0bdebb7624063ef195be07c1f580800e536836",
+    "seqno": 10,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgSpCxoGSjcYYUhA0R6hp/LiL+J8MhmDSh7rvwP0iVE1AKp3BheWxvYWTFAvR7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxMmZkMGRmYjQ5OWZjMWM0OTg0ZGIyYmQzZjBhMWU2NWQ1MjUzNDg2MjI1ZTlkMjM0YmJhODAzYzY2MTFiZDFkOTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNGE5MGIxYTA2NGEzNzE4NjE0ODQwZDExZWExYTdmMmUyMmZlMjdjMzIxOTgzNGExZWViYmYwM2Y0ODk1MTM1MDBhIiwidWlkIjoiNjJkYjIxMGNjMmVhNzBjZjdjMzE3YTM0ZDVkMTUzMTkiLCJ1c2VybmFtZSI6ImZhcmlzIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJmYXJpc2NoZWJpYi5pcyIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE1In0sImN0aW1lIjoxNDU5NzkyNjg3LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0NTk3OTI2MDYsImhhc2giOiI2ZWFjNzlhNmM1ZWU4MTQ4ZmQzODFhZGRjMTk3OGVkN2E2MTE0YTliNTA1NWYxMTFlNTJhOWRhYWFkZWEyYThiZTc3OGRjMjliMTczNjliNzZjODBjMWY3NDJmZGMwZTM2ODRhNDk5MmQ5YmNiZTFlNTljNDQzNDJhY2E4YzY4OCIsInNlcW5vIjo0Mjg1MTd9LCJwcmV2IjoiY2RlOWRjYWM5ZGY5N2ViMDdlNzllNTk5YmYwYmRlYmI3NjI0MDYzZWYxOTViZTA3YzFmNTgwODAwZTUzNjgzNiIsInNlcW5vIjoxMCwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEAUFS1EdOn8rfMimc4D2Qixk6+Vb9Z3Dq6cUDDeMkefiCQcgLE5wdwBHpGODl5jIgKy6ip4GH66sNBIoTxrOx8IqHNpZ190eXBlIKN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/faris
+
+==================================================================
+
