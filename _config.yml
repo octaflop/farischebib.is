@@ -58,6 +58,8 @@ social:
     url: https://github.com/octaflop
 
 paginate: 5
+paginate_path: "/all/page:num/"
+
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title
