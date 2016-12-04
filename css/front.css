@@ -3,7 +3,7 @@
 body {
     font-family: "Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: rgba(0, 0, 0, 0.9);
-    position: absolute; 
+    position: absolute;
     top: 0;
     bottom: 0;
     right: 0;
@@ -70,8 +70,7 @@ li:hover {
     background-color: rgba(0, 0, 0, 0.5);
 }
 li.blog-link > a {
-	color: rgb(153, 34, 115);
-	text-shadow: #FFF 0px 0px 1px;
+	color: rgb(150, 200, 200);
 }
 a {
     color: white;

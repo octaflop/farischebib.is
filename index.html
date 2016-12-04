@@ -21,6 +21,10 @@ permalink: /
             <h3>{{ site.description }}</h3>
 
                 <ul>
+                    {% if site.twitter_username %}
+                    <li><a class="fa fa-2x fa-twitter" href="https://twitter.com/{{ site.twitter_username }}"><span class="description">Twitter</span></a></li>
+                    {% endif %}
+
                     {% if site.github_username %}
                     <li><a class="fa fa-2x fa-github" href="https://github.com/{{ site.github_username }}"><span class="description">GitHub</span></a></li>
                     {% endif %}
@@ -35,10 +39,6 @@ permalink: /
 
                     {% if site.vk_username %}
                     <li><a class="fa fa-2x fa-vk" href="https://vk.com/{{ site.vk_username }}"><span class="description">ВКонтакте</span></a></li>
-                    {% endif %}
-
-                    {% if site.twitter_username %}
-                    <li><a class="fa fa-2x fa-twitter" href="https://twitter.com/{{ site.twitter_username }}"><span class="description">Twitter</span></a></li>
                     {% endif %}
 
                     {% if site.google_plus_username %}
@@ -89,7 +89,6 @@ permalink: /
                     <li><a class="fa fa-2x fa-weibo" href="https://weibo.com/{{ site.weibo_username }}"><span class="description">微博</span></a></li>
                     {% endif %}
 
-
                     {% if site.email %}
                     <li><a class="fa fa-2x fa-envelope" href="mailto:{{ site.email }}"><span class="description">Email</span></a></li>
                     {% endif %}
@@ -97,13 +96,24 @@ permalink: /
                     {% if site.public_key_url %}
                     <li><a class="fa fa-2x fa-key" href="{{ site.public_key_url }}"><span class="description">PGP Key</span></a></li>
                     {% endif %}
+                  </ul>
 
-                    {% if site.hacking_blog_url %}
+                  <h4><a href='/all'>Blogs</a></h4>
+                  <ul>
                     <li class="blog-link"><a class="fa fa-2x fa-terminal"
-                      href="{{ site.hacking_blog_url }}"
-                      title="hacking blog"><span
+                      href="/hacking/"
+                      title="Hacking blog"><span
                       class="description">Hacking Blog</span></a></li>
-                    {% endif %}
+
+                    <li class="blog-link"><a class="fa fa-2x fa-camera"
+                      href="/photographing/"
+                      title="Photography blog"><span
+                      class="description">Photo Blog</span></a></li>
+
+                    <li class="blog-link"><a class="fa fa-2x fa-plane"
+                      href="/flying/"
+                      title="flying blog"><span
+                      class="description">Flying Blog</span></a></li>
 
                     {% if site.blog_url %}
                     <li><a class="fa fa-2x fa-laptop" href="{{ site.baseurl }}{{ site.blog_url }}"><span class="description">Blog</span></a></li>
