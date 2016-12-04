@@ -106,13 +106,23 @@
       </article>
     </main>
     <div class="bottom-closer">
+      {% if page.category_image %}
+      <div class="background-closer-image"style="background-image: url({{ page.category_image }})">
+        Image
+      </div>
+      {% else %}
       <div class="background-closer-image" {%if site.cover %} style="background-image: url({{ site.cover }})"{% endif %}>
         Image
       </div>
+      {% endif %}
       <div class="inner">
         <h1 class="blog-title">{{ site.title }}</h1>
         <h2 class="blog-description">{{ site.description }}</h2>
-        <a href="/{{ page.category }}/" class="btn">Back to Overview</a>
+        {% if page.category %}
+        <a href="/{{ page.category }}/" class="btn">Back to {{ page.category }}</a>
+        {% else %}
+        <a href="/blogging/" class="btn">Back to Overview</a>
+        {% endif %}
       </div>
     </div>
     {% include javascripts.html %}

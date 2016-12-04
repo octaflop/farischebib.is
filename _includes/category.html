@@ -37,7 +37,7 @@
         {% endif %}
       {% endfor %}
       {% if page.category_name %}
-      <a href="/about/">All Posts</a> &nbsp;&nbsp;·&nbsp;&nbsp;
+      <a href="/blogging/">All Posts</a> &nbsp;&nbsp;·&nbsp;&nbsp;
       {% endif %}
       <a href="/about/">About</a>
     </div>
@@ -105,6 +105,9 @@
             </section>
             <div class="post-meta">
               <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
+              {% if post.category %}
+              <span class="post-tags-set">in <a href="/{{post.category}}/"><b>{{post.category}}</b></a></span>
+              {% endif %}
 <!--            <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>-->
             </div>
           </div>
