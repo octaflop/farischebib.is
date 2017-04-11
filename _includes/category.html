@@ -70,6 +70,15 @@
     <h5 class="index-headline normal"><span>Regular</span></h5>
     {% endif %}
 
+    {% if page.category_index == "for-hire" %}
+      <article class="post">
+        <div class="article-item">
+          <header class="post-header">
+            <h2 class="post-title" itemprop="name"><a href="/static/resume.pdf" itemprop="url">Resume</a></h2>
+          </header>
+        </div>
+     </article>
+    {% endif %}
 
     {% if page.category_index %}
     <div class="cf frame">
