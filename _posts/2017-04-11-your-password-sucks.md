@@ -46,8 +46,9 @@ and they'll be super-secure as a result.
 
 The best way to come up with your passcode is to use the [EFF Dice
 Method](https://www.eff.org/dice), which is basically: roll 5 dice, find the
-word in the [EFF Long Wordlist], Repeat. If you do this 6 times, you'll have 1
-of 221073919720733357899776 alternatives.
+word in the [EFF Long
+Wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt), Repeat.
+If you do this 6 times, you'll have 1 of 221073919720733357899776 alternatives.
 
 For example, you could end up with:
 
