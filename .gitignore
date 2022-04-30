@@ -61,9 +61,10 @@ target/
 cache/
 output/
 
-_site/
 
 *.lock
 
+_site/
+.idea/
 .sass-cache/
-
+vendor/

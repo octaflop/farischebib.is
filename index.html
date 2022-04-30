@@ -19,6 +19,27 @@ permalink: /
 
             <h1>{{ site.name }}</h1>
             <h3>{{ site.description }}</h3>
+                  <h4><a href='/all'>Blogs</a></h4>
+                  <ul>
+                    <li class="blog-link"><a class="fa fa-2x fa-terminal"
+                      href="/hacking/"
+                      title="Hacking blog"><span
+                      class="description">Hacking Blog</span></a></li>
+
+                    <li class="blog-link"><a class="fa fa-2x fa-camera"
+                      href="/capturing/"
+                      title="Photography blog"><span
+                      class="description">Photo Blog</span></a></li>
+
+                    <li class="blog-link"><a class="fa fa-2x fa-plane"
+                      href="/flying/"
+                      title="flying blog"><span
+                      class="description">Flying Blog</span></a></li>
+
+                    {% if site.blog_url %}
+                    <li><a class="fa fa-2x fa-laptop" href="{{ site.baseurl }}{{ site.blog_url }}"><span class="description">Blog</span></a></li>
+                    {% endif %}
+                </ul>
 
                 <ul>
                     {% if site.twitter_username %}
@@ -41,16 +62,8 @@ permalink: /
                     <li><a class="fa fa-2x fa-vk" href="https://vk.com/{{ site.vk_username }}"><span class="description">ВКонтакте</span></a></li>
                     {% endif %}
 
-                    {% if site.google_plus_username %}
-                    <li><a class="fa fa-2x fa-google-plus" href="https://plus.google.com/+{{ site.google_plus_username }}"><span class="description">Google +</span></a></li>
-                    {% endif %}
-
-                    {% if site.linkedin_username %}
+                    {% if site.linked_in_username %}
                     <li><a class="fa fa-2x fa-linkedin" href="https://linkedin.com/in/{{ site.linkedin_username }}"><span class="description">LinkedIn</span></a></li>
-                    {% endif %}
-
-                    {% if site.vine_username %}
-                    <li><a class="fa fa-2x fa-vine" href="https://vine.co/{{ site.vine_username }}"><span class="description">Vine</span></a></li>
                     {% endif %}
 
                     {% if site.instagram_username %}
@@ -59,14 +72,6 @@ permalink: /
 
                     {% if site.flickr_usernmae %}
                     <li><a class="fa fa-2x fa-flickr" href="https://flickr.com/photos/{{ site.flickr_username }}"><span class="description">Flickr</span></a></li>
-                    {% endif %}
-
-                    {% if site.steam_username %}
-                    <li><a class="fa fa-2x fa-steam" href="http://steamcommunity.com/id/{{ site.steam_username }}"><span class="description">Steam</span></a></li>
-                    {% endif %}
-
-                    {% if site.soundcloud_username %}
-                    <li><a class="fa fa-2x fa-soundcloud" href="https://soundcloud.com/{{ site.soundcloud_username }}"><span class="description">Soundcloud</span></a></li>
                     {% endif %}
 
                     {% if site.stack_of_username %}
@@ -98,27 +103,7 @@ permalink: /
                     {% endif %}
                   </ul>
 
-                  <h4><a href='/all'>Blogs</a></h4>
-                  <ul>
-                    <li class="blog-link"><a class="fa fa-2x fa-terminal"
-                      href="/hacking/"
-                      title="Hacking blog"><span
-                      class="description">Hacking Blog</span></a></li>
 
-                    <li class="blog-link"><a class="fa fa-2x fa-camera"
-                      href="/photographing/"
-                      title="Photography blog"><span
-                      class="description">Photo Blog</span></a></li>
-
-                    <li class="blog-link"><a class="fa fa-2x fa-plane"
-                      href="/flying/"
-                      title="flying blog"><span
-                      class="description">Flying Blog</span></a></li>
-
-                    {% if site.blog_url %}
-                    <li><a class="fa fa-2x fa-laptop" href="{{ site.baseurl }}{{ site.blog_url }}"><span class="description">Blog</span></a></li>
-                    {% endif %}
-                </ul>
         </div>
 
     </body>
