@@ -19,27 +19,31 @@ permalink: /
 
             <h1>{{ site.name }}</h1>
             <h3>{{ site.description }}</h3>
-                  <h4><a href='/all'>Blogs</a></h4>
-                  <ul>
-                    <li class="blog-link"><a class="fa fa-2x fa-terminal"
-                      href="/hacking/"
-                      title="Hacking blog"><span
-                      class="description">Hacking Blog</span></a></li>
+                <div class="blog-box">
+                    <h4><a href='/all'>Blogs!</a></h4>
+                    <div class="btn-blog-group" role="group" aria-label="Blogs, and latest blog">
+                        <button type="button" class="btn btn-primary">Latest Article</button>
+                        <div class="btn-group" role="group">
+                            <button id="blogDropdownGroup" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Other Articles
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="blogDropdownGroup">
 
-                    <li class="blog-link"><a class="fa fa-2x fa-camera"
-                      href="/capturing/"
-                      title="Photography blog"><span
-                      class="description">Photo Blog</span></a></li>
+                                {% for post in site.tags.featured %}
+                                <a class="dropdown-item" itemscope itemtype="http://schema.org/BlogPosting" role="article" href="{{ post.url }}" itemprop="url">
+                                    <div class="article-item">
+                                        <h2 class="post-title" itemprop="name">{{ post.title }}</h2>
+                                        <section class="post-excerpt" itemprop="description">
+                                            <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+                                        </section>
+                                    </div>
+                                </a>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
 
-                    <li class="blog-link"><a class="fa fa-2x fa-plane"
-                      href="/flying/"
-                      title="flying blog"><span
-                      class="description">Flying Blog</span></a></li>
-
-                    {% if site.blog_url %}
-                    <li><a class="fa fa-2x fa-laptop" href="{{ site.baseurl }}{{ site.blog_url }}"><span class="description">Blog</span></a></li>
-                    {% endif %}
-                </ul>
+                </div>
 
                 <ul>
                     {% if site.twitter_username %}

@@ -1,0 +1,20 @@
+<ul>
+    <li class="blog-link"><a class="fa fa-2x fa-terminal"
+                             href="/hacking/"
+                             title="Hacking blog"><span
+            class="description">Hacking Blog</span></a></li>
+
+    <li class="blog-link"><a class="fa fa-2x fa-camera"
+                             href="/capturing/"
+                             title="Photography blog"><span
+            class="description">Photo Blog</span></a></li>
+
+    <li class="blog-link"><a class="fa fa-2x fa-plane"
+                             href="/flying/"
+                             title="flying blog"><span
+            class="description">Flying Blog</span></a></li>
+
+    {% if site.blog_url %}
+    <li><a class="fa fa-2x fa-laptop" href="{{ site.baseurl }}{{ site.blog_url }}"><span class="description">Blog</span></a></li>
+    {% endif %}
+</ul>
