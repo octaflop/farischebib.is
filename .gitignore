@@ -68,3 +68,7 @@ _site/
 .idea/
 .sass-cache/
 vendor/
+
+# Mac Stuff
+
+.DS_Store
