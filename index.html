@@ -20,29 +20,13 @@ permalink: /
             <h1>{{ site.name }}</h1>
             <h3>{{ site.description }}</h3>
                 <div class="blog-box">
-                    <h4><a href='/all'>Blogs!</a></h4>
                     <div class="btn-blog-group" role="group" aria-label="Blogs, and latest blog">
-                        <button type="button" class="btn btn-primary">Latest Article</button>
-                        <div class="btn-group" role="group">
-                            <button id="blogDropdownGroup" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Other Articles
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="blogDropdownGroup">
-
-                                {% for post in site.tags.featured %}
-                                <a class="dropdown-item" itemscope itemtype="http://schema.org/BlogPosting" role="article" href="{{ post.url }}" itemprop="url">
-                                    <div class="article-item">
-                                        <h2 class="post-title" itemprop="name">{{ post.title }}</h2>
-                                        <section class="post-excerpt" itemprop="description">
-                                            <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
-                                        </section>
-                                    </div>
-                                </a>
-                                {% endfor %}
-                            </div>
-                        </div>
+                        {% assign latest_post = site.posts.first %}
+                        <a type="button" class="btn btn-primary" href="{{ latest_post.url }}">
+                            <small>latest post:</small> <i>{{ latest_post.title }}</i>
+                        </a>
+                        <a type="button" class="btn btn-secondary" href='/all'>older posts</a></h4>
                     </div>
-
                 </div>
 
                 <ul>
