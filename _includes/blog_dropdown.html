@@ -1,0 +1,18 @@
+<div class="btn-group" role="group">
+    <button id="blogDropdownGroup" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Other Articles
+    </button>
+    <div class="dropdown-menu" aria-labelledby="blogDropdownGroup">
+
+        {% for post in site.posts %}
+        <a class="dropdown-item" itemscope itemtype="http://schema.org/BlogPosting" role="article" href="{{ post.url }}" itemprop="url">
+            <div class="article-item">
+                <h2 class="post-title" itemprop="name">{{ post.title }}</h2>
+                <section class="post-excerpt" itemprop="description">
+                    <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+                </section>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+</div>

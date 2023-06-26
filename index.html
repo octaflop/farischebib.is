@@ -19,27 +19,15 @@ permalink: /
 
             <h1>{{ site.name }}</h1>
             <h3>{{ site.description }}</h3>
-                  <h4><a href='/all'>Blogs</a></h4>
-                  <ul>
-                    <li class="blog-link"><a class="fa fa-2x fa-terminal"
-                      href="/hacking/"
-                      title="Hacking blog"><span
-                      class="description">Hacking Blog</span></a></li>
-
-                    <li class="blog-link"><a class="fa fa-2x fa-camera"
-                      href="/capturing/"
-                      title="Photography blog"><span
-                      class="description">Photo Blog</span></a></li>
-
-                    <li class="blog-link"><a class="fa fa-2x fa-plane"
-                      href="/flying/"
-                      title="flying blog"><span
-                      class="description">Flying Blog</span></a></li>
-
-                    {% if site.blog_url %}
-                    <li><a class="fa fa-2x fa-laptop" href="{{ site.baseurl }}{{ site.blog_url }}"><span class="description">Blog</span></a></li>
-                    {% endif %}
-                </ul>
+                <div class="blog-box">
+                    <div class="btn-blog-group" role="group" aria-label="Blogs, and latest blog">
+                        {% assign latest_post = site.posts.first %}
+                        <a type="button" class="btn btn-primary" href="{{ latest_post.url }}">
+                            <small>latest post:</small> <i>{{ latest_post.title }}</i>
+                        </a>
+                        <a type="button" class="btn btn-secondary" href='/all'>older posts</a></h4>
+                    </div>
+                </div>
 
                 <ul>
                     {% if site.twitter_username %}
