@@ -3,7 +3,8 @@ layout: post
 title: Leading Through Service
 category: leading
 category_image: "/imgs/moods/sailboat_wide.jpg"
-image: "/imgs/moods/pink_and_wilted.jpg"
+image: "/imgs/thumbs/moods/pink_and_wilted_3000.jpg"
+image2: "/imgs/thumbs/moods/pink_and_wilted_1920.jpg"
 ---
 
 For the past seven years, with a hiatus due to the COVID-19 pandemic, I've been a "Kid's Crew" volunteer at Primary Children's Hospital. This role is more than just a volunteer position—it's a commitment to filling gaps, addressing the non-medical needs of child patients, and making their healing journey a bit brighter. This endeavor entails a variety of responsibilities, ranging from practical tasks such as cleaning to more creative pursuits like planning activities and crafts.
