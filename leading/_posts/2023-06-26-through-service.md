@@ -3,10 +3,9 @@ layout: post
 title: Leading Through Service
 category: leading
 category_image: "/imgs/moods/sailboat_wide.jpg"
-
-image: "/imgs/moods/slc_sunset_lights.jpg"
+image: “/imgs/moods/pink_and_wilted.jpg“
 ---
-<!— image: “/imgs/moods/pink_and_wilted.jpg”—>
+
 For the past seven years, with a hiatus due to the COVID-19 pandemic, I've been a "Kid's Crew" volunteer at Primary Children's Hospital. This role is more than just a volunteer position—it's a commitment to filling gaps, addressing the non-medical needs of child patients, and making their healing journey a bit brighter. This endeavor entails a variety of responsibilities, ranging from practical tasks such as cleaning to more creative pursuits like planning activities and crafts.
 
 In the midst of my service, I've found myself surrounded by younger pre-med volunteers from the local university. As one of the more seasoned volunteers, I often step into a leadership role, guiding others in patient safety protocols and day-room check-in procedures. However, my true passion lies in going beyond the standard protocol and instilling an intrinsic motivation in my fellow volunteers.
