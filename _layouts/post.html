@@ -105,11 +105,11 @@
     </main>
     <div class="bottom-closer">
       {% if page.category_image %}
-      <div class="background-closer-image"style="background-image: url({{ page.category_image | resize: '1440x1500' }})">
+      <div class="background-closer-image"style="background-image: url({{ page.category_image  }})">
         Image
       </div>
       {% else %}
-      <div class="background-closer-image" {%if site.cover %} style="background-image: url({{ site.cover | resize: '1440x1500' }})"{% endif %}>
+      <div class="background-closer-image" {%if site.cover %} style="background-image: url({{ site.cover  }})"{% endif %}>
         Image
       </div>
       {% endif %}

@@ -4,5 +4,5 @@ gem 'bourbon'
 gem 'jemoji'
 gem 'jekyll-paginate'
 group :jekyll_plugins do
-  gem "jekyll-resize", git: "https://github.com/MichaelCurrin/jekyll-resize"
+  gem 'jekyll-image-resizer', git: 'git@github.com:kisakov/jekyll-image-resizer.git'
 end

@@ -5,7 +5,12 @@ description: "a happy-go-lucky cognitive science hacker"
 url: "https://farischebib.is"
 baseurl: ""
 
+# image resize options
+image_width: 3000
+image_small_height: 1500
+image_quality: 97
 
+# More profile stuff
 github_username:  octaflop
 #codepen_username: your_codepen_username_goes_here
 #facebook_username: your_facebook_username_goes_here
