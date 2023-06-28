@@ -9,10 +9,10 @@
       <article class="post">
         {% if page.image %}
         <div class="article-image">
-          <div class="post-image-image" style="background-image: url({% if page.image %}{{ page.image | resize: '1440x3000' }}{% endif %})">
+          <div class="post-image-image" style="background-image: url({% if page.image %}{{ page.image }}{% endif %})">
             Article Image
           </div>
-          <div class="post-image-image2" style="background-image: url({% if page.image2 %}{{ page.image2 | resize: '1440x3000' }}{% endif %})">
+          <div class="post-image-image2" style="background-image: url({% if page.image2 %}{{ page.image2 }}{% endif %})">
             Article Image
           </div>
           <div class="post-meta">
@@ -105,11 +105,11 @@
     </main>
     <div class="bottom-closer">
       {% if page.category_image %}
-      <div class="background-closer-image"style="background-image: url({{ page.category_image | resize: '1440x1500' }})">
+      <div class="background-closer-image"style="background-image: url({{ page.category_image  }})">
         Image
       </div>
       {% else %}
-      <div class="background-closer-image" {%if site.cover %} style="background-image: url({{ site.cover | resize: '1440x1500' }})"{% endif %}>
+      <div class="background-closer-image" {%if site.cover %} style="background-image: url({{ site.cover  }})"{% endif %}>
         Image
       </div>
       {% endif %}

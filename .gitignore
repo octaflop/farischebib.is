@@ -69,6 +69,8 @@ _site/
 .sass-cache/
 vendor/
 
+.venv
+
 # Mac Stuff
 
 .DS_Store
