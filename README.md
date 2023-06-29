@@ -1,6 +1,6 @@
-# [https://farischebib.is/](farischebib.is)
+# [farischebib.is](https://farischebib.is)
 
-Repo of the build files (and open drafts of posts, in addition to their raw contents) for the online site [https://farischebib.is/](farischebib.is). 
+Repo of the build files (and open drafts of posts, in addition to their raw contents) for the online site [farischebib.is](https://farischebib.is). 
 
 ## Installation
 
@@ -32,7 +32,7 @@ Repo of the build files (and open drafts of posts, in addition to their raw cont
 
 ## TODO
 
-- [x] Get some mood images going [/imgs/moods/](in a folder)
+- [x] Get some mood images going [in a `moods` folder](/imgs/moods/)
   - [ ] Get some videos uploaded
   - [ ] Get some audio captures up
 - [ ] Play around with posts on-the-go
