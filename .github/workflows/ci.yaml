@@ -22,9 +22,11 @@ jobs:
         curl -sSL https://install.python-poetry.org | python3 -
 
     - name: Install dependencies
+      working-directory: scripts/webify
       run: |
         poetry install
 
-    - name: Run tests
+    - name: Run tests & Generate Coverage Report
+      working-directory: scripts/webify
       run: |
-        poetry run test
+        poetry run pytest --cov=./coverage
