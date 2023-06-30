@@ -1,17 +1,43 @@
 name: CI
 
 on:
+  workflow_dispatch:
+    inputs:
+      tags:
+        description: 'Debug Tags'
+        required: false
+        type: string
+        default: 'DEBUG'
   pull_request:
     branches:
       - gh-pages
 
 jobs:
-  build:
+  build_jekyll:
+    name: Build Jekyll Pages
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
 
+    - name: Setup Pages
+      id: pages
+      uses: actions/configure-pages@v3
+
+    - name: Build with Jekyll
+      uses: actions/jekyll-build-pages@v1
+      with:
+        source: ./
+        destination: ./_site
+
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v1
+
+  build_webify:
+    name: Build webify python package
+    runs-on: ubuntu-latest
+
+    steps:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
@@ -24,9 +50,26 @@ jobs:
     - name: Install dependencies
       working-directory: scripts/webify
       run: |
-        poetry install
+        poetry install --with dev
+
+    - name: Build webify
+      working-directory: scripts/webify
+      run: |
+        poetry build 
 
     - name: Run tests & Generate Coverage Report
       working-directory: scripts/webify
       run: |
         poetry run pytest --cov=./coverage
+
+  deploy:
+    name: Deploy Pages
+    environment:
+      name: github-pages
+      url: $
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
