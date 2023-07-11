@@ -7,7 +7,7 @@ permalink: /resume/
 
 Howdy! You've stumbled upon my latest resume.
 
-It was last updated on **June 26, 2023**
+It was last updated on **July 11th, 2023**
 
 Feel free to read my [blog articles](/all/) for something a bit less dry.
 
