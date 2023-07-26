@@ -68,3 +68,6 @@ _site/
 .idea/
 .sass-cache/
 vendor/
+
+.venv
+.DS_Store
