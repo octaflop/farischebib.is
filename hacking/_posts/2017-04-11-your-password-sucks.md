@@ -8,7 +8,6 @@ image: "/imgs/posts/password_sucks/password_weak_rot.png"
 image2: "/imgs/posts/password_sucks/password_strong_rot.png"
 ---
 
-
 A couple months ago, the new White House press Secretary tweeted out these seemingly
 random letters assumed to be his password:
 
@@ -40,7 +39,7 @@ have ingrained such bad practices in our passwords.
 ## The Solution: Passcodes, Password Managers, and 2-Factor Authentication
 
 There is a better way to create a password. If you're using an up to date
-password manager (eg Keepass, LastPass; etc), then you're able to make *one*
+password manager (eg Keepass, LastPass; etc), then you're able to make _one_
 "Entropic Passcode" (we'll call them "passcodes" for short) as long as you want,
 and they'll be super-secure as a result.
 
@@ -74,13 +73,13 @@ backs up your 2-factor keys.
 
 1. Generate a long & secure passcode using the dice method.
 2. Use a password manager for day-to-day password logins,
-  and protect it with your secure passcode.
+   and protect it with your secure passcode.
 3. Use 2-Factor Authentication if available.
 
 ## One last note
 
 If you've been using the same password everywhere, you should definitely check out
-*[have i been pwned?](https://haveibeenpwned.com/)*. There, you can plug in your
+_[have i been pwned?](https://haveibeenpwned.com/)_. There, you can plug in your
 email address and find out if one of your accounts has ever been breached.
 
 ![](/imgs/posts/password_sucks/dropbox_pwnd.png "Yes, I have been pwned.")
