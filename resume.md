@@ -4,7 +4,6 @@ title: Resume
 permalink: /resume/
 ---
 
-
 Howdy! You've stumbled upon my latest resume.
 
 It was last updated on **July 11th, 2023**

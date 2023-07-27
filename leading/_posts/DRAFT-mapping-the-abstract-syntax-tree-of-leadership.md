@@ -9,7 +9,6 @@ image: "/imgs/posts/password_sucks/password_weak_rot.png"
 image2: "/imgs/posts/password_sucks/password_strong_rot.png"
 ---
 
-
 Leadership, much like coding, is an exercise in complexity management. Navigating through these complexities requires a deep understanding of the underlying structures, the subtleties of interaction, and the effects of each decision. In coding, programmers use abstract syntax trees to make sense of these complexities. Similarly, leadership can benefit from this approach.
 
 In this exploration, the concept of an abstract syntax tree is transposed from coding to leadership. Each node represents a leadership challenge - be it communication, decision-making, conflict resolution, or fostering innovation. The connections between these nodes form the structure of effective leadership, highlighting the importance of viewing leadership as an interconnected system rather than isolated skills.
