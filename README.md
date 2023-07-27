@@ -21,6 +21,7 @@ Repo of the build files (and open drafts of posts, in addition to their raw cont
 1. Create a post in one of the categories under `_posts`
 2. Run `python scripts/webify_imgs.py`
 3. Add front-matter referencing the updated images. Note `image2` is for mobile browsers. For example:
+4. Manage in cloudflare using actions, making a PR or branch will spawn a test branch.
 
 ```markdown
 ---
