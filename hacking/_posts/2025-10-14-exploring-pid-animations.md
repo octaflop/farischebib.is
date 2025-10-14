@@ -17,5 +17,5 @@ For this demo, I've constructed a basic webgl space with a "train" (or car, if m
 attempts to reach a spot on the track. During the loop, you can click on other parts of the track and change the PID
 parameters to get a sense of how those inputs impact the feedback loop.
 
-You can check out the demo at [pid.brain.run](https://pid.brain.run/)
+You can check out the demo at [pid.brain.run](https://pid.brain.run/){:target="_blank"}
 
