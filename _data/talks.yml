@@ -1,0 +1,27 @@
+# Conference talks and presentations — source of truth for all sites.
+# Sync to sites via: ./scripts/sync-data.sh
+#
+# Fields:
+#   title:       talk title
+#   event:       conference or meetup name
+#   date:        YYYY-MM-DD
+#   url:         recording or event page URL (~ if none)
+#   slides:      slides URL (~ if none)
+#   description: one-sentence summary
+#   tags:        list of topic tags
+
+- title: "DuckTiles: Modern Data Tools with DuckDB and Pandas"
+  event: SLCPython
+  date: 2024-06-01
+  url: https://slcpy.com
+  slides: ~
+  description: "Live demo of DuckDB, NiceGUI, and Pandas for interactive data tiling"
+  tags: [python, duckdb, data, slcpython]
+
+- title: "ML for the Masses"
+  event: SLCPython
+  date: 2022-01-01
+  url: ~
+  slides: ~
+  description: "Practical machine learning workflows accessible to non-specialists"
+  tags: [python, ml, slcpython]

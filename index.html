@@ -25,7 +25,19 @@ permalink: /
                         <a type="button" class="btn btn-primary" href="{{ latest_post.url }}">
                             <small>latest post:</small> <i>{{ latest_post.title }}</i>
                         </a>
-                        <a type="button" class="btn btn-secondary" href='/all'>older posts</a></h4>
+                        <a type="button" class="btn btn-secondary" href='/writing'>writing</a>
+                        <a type="button" class="btn btn-secondary" href='/projects'>projects</a>
+                        <a type="button" class="btn btn-secondary" href='/talks'>talks</a>
+                    </div>
+                </div>
+
+                <div class="blog-box" style="margin-top: 1em;">
+                    <div class="btn-blog-group" role="group" aria-label="Other sites">
+                        {% for s in site.data.sites %}
+                        {% unless s.id == "farischebib" %}
+                        <a type="button" class="btn btn-outline-secondary btn-sm" href="{{ s.url }}" target="_blank">{{ s.name }}</a>
+                        {% endunless %}
+                        {% endfor %}
                     </div>
                 </div>
 

@@ -1,0 +1,52 @@
+# Site registry — cross-linking data for hub navigation.
+# Sync to sites via: ./scripts/sync-data.sh
+#
+# Fields:
+#   id:          slug
+#   name:        display name
+#   url:         canonical URL
+#   description: one-line description shown in hub navigation
+#   type:        hub | technical | photography | community | teaching | project
+#   status:      live | wip | dark | parked
+
+- id: farischebib
+  name: "farischebib.is"
+  url: https://farischebib.is
+  description: "Hub — Staff Engineer, genomics × AI × cognitive science, pilot, teacher"
+  type: hub
+  status: live
+
+- id: faris-ai
+  name: "faris.ai"
+  url: https://faris.ai
+  description: "Technical writing — genomics, ML, Python, and data engineering"
+  type: technical
+  status: live
+
+- id: faris-photos
+  name: "faris.photos"
+  url: https://faris.photos
+  description: "Photography — street, event, and documentary"
+  type: photography
+  status: live
+
+- id: hacktivities
+  name: "hacktivities.org"
+  url: https://hacktivities.org
+  description: "Teaching portfolio — Python, web development, and data courses"
+  type: teaching
+  status: live
+
+- id: slcpy
+  name: "slcpy.com"
+  url: https://slcpy.com
+  description: "Salt Lake City Python meetup — co-founded 2013"
+  type: community
+  status: live
+
+- id: brain-run
+  name: "brain.run"
+  url: https://brain.run
+  description: "AI lambda projects and interactive demos"
+  type: project
+  status: wip
