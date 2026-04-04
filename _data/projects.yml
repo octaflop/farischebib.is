@@ -1,0 +1,57 @@
+# Central project registry — source of truth for all sites.
+# Sync to sites via: ./scripts/sync-data.sh
+#
+# Fields:
+#   id:          slug used in URLs and cross-references
+#   title:       display name
+#   description: one-sentence summary (keep under 120 chars)
+#   url:         canonical public URL for this project
+#   repo:        GitHub repo (octaflop/<name> or org/<name>)
+#   tags:        list of topic tags
+#   featured:    true = show on farischebib.is homepage
+#   status:      active | archived | wip
+
+- id: ducktiles
+  title: "DuckTiles"
+  description: "Interactive data tiling with DuckDB, NiceGUI, and Pandas — SLCPython June 2024 talk"
+  url: https://faris.ai/notebooks/ducktiles/
+  repo: octaflop/ducktiles
+  tags: [python, duckdb, data, teaching]
+  featured: true
+  status: active
+
+- id: mortaldata
+  title: "Mortal Data"
+  description: "Data science literacy course — intro to Jupyter, Pandas, and statistical thinking"
+  url: https://hacktivities.org/courses/data
+  repo: octaflop/mortaldata
+  tags: [python, data, teaching, jupyter]
+  featured: true
+  status: active
+
+- id: open-brain-run
+  title: "open.brain.run"
+  description: "SLCPython AI demo environment — interactive ML experiments in the browser"
+  url: https://open.brain.run
+  repo: SLCPython/open.brain.run
+  tags: [python, ml, wasm, demo]
+  featured: false
+  status: wip
+
+- id: artofpython
+  title: "The Art of Python"
+  description: "Broad Python intro course for beginners and veterans"
+  url: https://hacktivities.org/courses/python-intro
+  repo: octaflop/artofpython
+  tags: [python, teaching]
+  featured: false
+  status: active
+
+- id: django-music
+  title: "Django Music"
+  description: "Step-by-step Django web development via incremental git branches"
+  url: https://hacktivities.org/courses/django
+  repo: octaflop/django_music
+  tags: [python, django, teaching, web]
+  featured: false
+  status: active
